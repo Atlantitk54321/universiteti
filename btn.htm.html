@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Desing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html.html">About</a></li>
+                        <li><a href="course.html.html">Course</a></li>
+                        <li><a href="blog.html.html">Blog</a></li>
+                        <li><a href="Contact.html.html">Contact</a></li>
+                        
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Eduford</h1>
+            <h3>Leadership quality success</h3>
+
+        </section>
+
+
+
+        <!----about us content-->
+        <section class="para">
+            <h1 class="Kryesor">Eduford</h1>
+            <p class="paragraf1">The first public institution of higher education in the US.<br>In its beginnings, our institution offered 
+                study programs in the field of Art and Mass Communication, constantly expanding with study programs in 
+                other fields, thus becoming a relevant academic center in the country and region and serving as a model 
+                institution of higher education. not only in the U.S. but also in the region. As a public institution, 
+                Eduford provided a genuine example of promoting institutional autonomy and academic freedom in teaching 
+                and scientific research within the institution.
+            </p>
+        </section>
+    
+        <section id="historiku">
+            <h2 class="titulli2">Our history</h2>
+            <p class="Paragrafi2">
+                
+                Eduford is the largest investment in the country in the field of education. In the University Campus in New York there are 6 objects dedicated to the exercise of educational 
+                activities equipped with modern facilities for creative learning and contemporary
+                 technology. Within this campus, in addition to the sports recreation center that has a swimming pool,
+                  football, volleyball, tennis fields, etc., there is also a sports gym which enables the development of the social and
+                   sports life of college students.
+
+            </p>
+            <!-- Mund të shtoni më shumë tekste dhe informacione këtu -->
+        </section>
+    
+        <section id="programet">
+            <h2 class="Titull3">Study Programs</h2>
+            <p class="pargrafi3">
+                Our institution offers study programs in various fields starting from Art and Mass Communication and expanding the offer to other fields.
+                Computer Science, Law, Journalism, Political Science, Public Administration, Dentistry, Real Estate, and many other programs.
+
+            </p>
+            <!-- Shtoni informacione për programet studimore -->
+        </section>
+    
+        <section id="autonomia">
+            <h2 class="titulli4">Institutional Autonomy
+            </h2>
+            <p class="paragrfi4">
+                Eduford serves as an example of promoting institutional autonomy and academic freedom in teaching and research.
+                Achieving the high level of universities also requires expansion in infrastructure, increasing funds and further increasing innovative partnerships with other European and world institutions.
+
+            </p>
+            <!-- Shtoni më shumë informacione mbi autonomine institucionale -->
+        </section>
+    
+        
+      
+        
+        
+    
+
+
+        <!--footer-->
+
+        <section class="footer">
+            
+
+            <p>Achieving the high level of universities also requires expansion in infrastructure,<br>
+             increasing funds and further increasing innovative partnerships with other European and world institutions.</p>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <hr>
+                <p class="footer-ni">Made with -Programim Company-<br>@Atlantik</p>
+        </section>
+
+
+
+        <!-----javaScript--->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+        </script>
+
+
+
+    </body>
+</html>

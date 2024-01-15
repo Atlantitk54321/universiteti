@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Desing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Raleway:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html.html">About</a></li>
+                        <li><a href="course.html.html">Course</a></li>
+                        <li><a href="blog.html.html">Blog</a></li>
+                        <li><a href="Contact.html.html">Contact</a></li>
+                        
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs For 2024</h1>
+
+        </section>
+
+
+
+        
+
+        
+
+
+        <!----blog page content-->
+       
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2024</h2>
+                    <p>Having a degree can give your child access to more of the jobs market. 26% more jobs are open to someone with a university degree nationally.
+                     In Gloucestershire that figure is even higher at 36%.
+                      By 2027 55% of jobs will require qualifications beyond sixth form/college.</p>
+                      <br>
+                      <p>University provides the opportunity for your child / young person to study a topic they enjoy in more depth.
+                         There are over 50,000 different courses available at
+                         higher education which means they are likely to find something they would really like to study.</p>
+                         <br>
+                         <p>University gives young people the opportunity to develop their 
+                            independence, especially if they choose to move away from home to study. Living away from the comfort of home, 
+                            managing their own money and balancing study and free time are all typical experiences. They will also have to get
+                             themselves to lectures on time and perhaps get a part time job.
+                             All of this will greatly enhance their independence and help them to gain vital key skills for living independently</p>
+                             <br>
+                             <p>Going to university can provide your child / young person with lots of new opportunities.
+                                 These include meeting new people from all over the world,
+                                 the chance to study abroad for a semester, joining new clubs and playing a new or a favourite sport.</p>
+
+                                <div class="comment-box">
+                                    <h3>Leave a comment</h3>
+
+                                    <form class="comment-form">
+                                        <input type="text"placeholder ="Enter Name">
+                                        <input type="Email"placeholder ="Enter Email">
+                                        <textarea rows="5" placeholder="Your comment">
+                                        </textarea>
+                                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                                    </form>
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Catecories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Sinces</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>Cumputer Science</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>AI</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+
+
+        <!--footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+
+            <p>Achieving the high level of universities also requires expansion in infrastructure,<br>
+             increasing funds and further increasing innovative partnerships with other European and world institutions.</p>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p class="footer-ni">Made with -Programim Company-</p>
+        </section>
+
+
+
+        <!-----javaScript--->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+        </script>
+
+
+
+    </body>
+</html>
